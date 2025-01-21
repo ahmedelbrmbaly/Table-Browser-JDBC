@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #112D4E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gov.iti.jets.PrimaryController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.39999389648438" minWidth="6.000002861022949" prefWidth="25.799993896484374" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.99999713897705" minWidth="10.0" prefWidth="108.99998321533204" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="412.0000183105469" minWidth="10.0" prefWidth="190.79996337890623" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="260.799951171875" minWidth="10.0" prefWidth="251.8" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="113.20001220703125" minWidth="10.0" prefWidth="27.799999999999955" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label text="Personla Details" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label text="ID" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label text="First Name" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label text="Middle Name" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label text="Last Name" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label text="Email" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label text="Phone" textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <TextField fx:id="id" editable="false" style="-fx-background-color: #3F72AF;" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+      <TextField fx:id="fName" style="-fx-background-color: #DBE2EF;" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+      <TextField fx:id="mName" style="-fx-background-color: #DBE2EF;" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+      <TextField fx:id="lName" style="-fx-background-color: #DBE2EF;" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+      <TextField fx:id="email" style="-fx-background-color: #DBE2EF;" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+      <TextField fx:id="phone" style="-fx-background-color: #DBE2EF;" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <GridPane GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="9">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+            <ColumnConstraints hgrow="SOMETIMES" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="newBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="New.." textFill="#f9f7f7" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+          <Button fx:id="updateBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="Update" textFill="#f9f7f7" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="deleteBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="Delete" textFill="#f9f7f7" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="firstBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="First" textFill="#f9f7f7" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="previousBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="Previous" textFill="#f9f7f7" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="nextBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="Next" textFill="#f9f7f7" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="lastBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="Last" textFill="#f9f7f7" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="clearBtn" mnemonicParsing="false" style="-fx-background-color: #3F72AF;" text="clear" textFill="#f9f7f7" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</GridPane>
