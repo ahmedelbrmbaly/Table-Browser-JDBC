@@ -3,7 +3,8 @@
 ## Overview
 
 This project is part of a **JDBC course** and showcases how to connect a Java application to a **MySQL database**. It demonstrates performing **CRUD (Create, Read, Update, Delete)** operations using **JDBC** and displaying the results via a **JavaFX** GUI. The goal is to allow users to interact with a **PersonDetails** database table, manage records, and navigate through them efficiently.
-![[ui.png]]
+
+![ui](ui.png)
 
 ## Key Features
 
